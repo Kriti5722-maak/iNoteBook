@@ -8,54 +8,6 @@ iNoteBook is a personal notes app built using the MERN stack (MongoDB, Express.j
 ![](demo1.gif)
 ![](demo2.gif)
 
-## Installation
-
-### Frontend Setup
-
-- Clone the repository:
-
-```bash
-  git clone https://github.com/swapnilghone/inotebook.git
-```
-- Navigate to the project directory:
-```bash
-  cd inotebook
-```
-- Install dependencies:
-```bash
-  npm install
-```
-- Create `.env` file under inotebook directory
-- Define following under `.env` file
-```.env
-  REACT_APP_API_URL=URL_ON_WHICH_YOU_WILL_RUN_BACKEND
-  JWT_SECRET=YOUR_JWT_SECRET_TOKEN
-```
-
-### Backend Setup
-
-- Navigate to the project backend directory:
-```bash
-  cd inotebook/backend
-```
-- Install dependencies:
-```bash
-  npm install
-```
-- Create `.env` file under `inotebook/backend` directory
-- Define following under `.env` file
-```.env
-  JWT_SECRET=YOUR_JWT_SECRET_TOKEN
-```
-## Usage
-
-To start both the backend and frontend servers concurrently:
-```bash
-npm run both
-```
-
-> [!IMPORTANT]
-> This script requires the concurrently package.
 
 
 
@@ -68,13 +20,7 @@ npm run both
 - Responsive Design: The frontend of the app is built using React, providing a responsive and interactive user interface that adapts to different devices and screen sizes.
 
 
-## Dependencies
-- Node version: >=20.11.0
-- Npm version: >=0.39.1
-- React version: 18.2
-- React Router DOM version: 6.21
-- MongoDB
-- Nodemon
+
 ## Tech Stack
 
 **Client:** React, JSX, Bootstrap
@@ -84,23 +30,4 @@ npm run both
 **Server:** MongoDB
 
 **Authentication:** JSON Web Tokens (JWT)
-## License
 
-NewsMonk is licensed under the MIT License - see the [LICENSE.TXT](LICENSE.TXT) file for details
-
-
-## Authors
-
-**Swapnil Ghone** - [iNoteBook](https://github.com/swapnilghone/inotebook)
-
-
-## 🔗 Links
-[![github](https://img.shields.io/badge/github-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swapnilghone)
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swapnil-ghone/)
-
-## Contributing
-
-Contributions are always welcome!
-
-Please feel free to fork the repository and submit pull requests.
